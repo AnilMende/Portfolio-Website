@@ -34,7 +34,7 @@ const Hero = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1.2 }}
-                className="mt-6 flex  gap-4 "
+                className="mt-6 flex flex-col md:flex-row gap-4"
             >
                 <button
                     onClick={() => handleScroll("projects")}
@@ -56,7 +56,7 @@ const Hero = () => {
                 <a
                     href="/AnilKumarM_resume.pdf"
                     download
-                    className="w-full md:w-auto px-6 py-2 bg-gray-800
+                    className="px-6 py-2 bg-gray-800
                      text-white rounded-lg text-center hover:scale-105 transition"
                 >
                     Download Resume
