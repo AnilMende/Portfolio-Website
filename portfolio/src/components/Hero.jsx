@@ -52,6 +52,16 @@ const Hero = () => {
                     Contact
                 </button>
 
+                {/* ✅ Resume Download */}
+                <a
+                    href="/AnilKumarM_resume.pdf"
+                    download
+                    className="w-full md:w-auto px-6 py-2 bg-gray-800
+                     text-white rounded-lg text-center hover:scale-105 transition"
+                >
+                    Download Resume
+                </a>
+
             </motion.div>
 
         </div>

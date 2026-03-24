@@ -3,7 +3,7 @@ import ArchitectureDiagram from "../ArchitectureDiagram";
 
 const FeaturedProject = () => {
     return (
-        <div id="featured" className="bg-black text-white py-20 px-6">
+        <div id="featured"  className="bg-black text-white pt-20 pb-16 px-6">
 
             <motion.h2
                 initial={{ opacity: 0, y: -40 }}
@@ -62,7 +62,7 @@ const FeaturedProject = () => {
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.7 }}
 
-                    className="w-full h-75"
+                    className="w-full h-75 mt-6 md:mt-0 pb-10"
                 >
                     <ArchitectureDiagram />
                 </motion.div>

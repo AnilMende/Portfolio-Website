@@ -3,3 +3,12 @@
 html {
   scroll-padding-top: 80px;
 }
+
+body {
+  overflow-x: hidden;
+  background-color: black;
+}
+
+html, body {
+  overflow-x: hidden;
+}
