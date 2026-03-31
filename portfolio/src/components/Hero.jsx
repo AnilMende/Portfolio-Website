@@ -27,7 +27,16 @@ const Hero = () => {
                 transition={{ duration: 1 }}
                 className="mt-4 text-xl text-gray-400"
             >
-                Backend Engineer | Full Stack Developer
+                Backend-focused Full Stack Developer specializing in scalable systems.
+            </motion.p>
+
+            <motion.p
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1 }}
+                className="mt-4 text-xl text-gray-400"
+            >
+                Actively looking for Backend / Full Stack roles
             </motion.p>
 
             <motion.div
@@ -54,7 +63,7 @@ const Hero = () => {
 
                 {/* ✅ Resume Download */}
                 <a
-                    href="/AnilKumarM_resume.pdf"
+                    href="/AnilKumarMende_Portfolio_Resume.pdf"
                     download
                     className="px-6 py-2 bg-gray-800
                      text-white rounded-lg text-center hover:scale-105 transition"

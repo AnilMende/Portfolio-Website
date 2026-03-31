@@ -14,7 +14,8 @@ const ProjectCard = ({ title, desc, tech, github, live }) => {
                 {tech.map((t, i) => (
                     <span
                         key={i}
-                        className="text-sm px-3 py-1 bg-gray-800 text-gray-300 rounded-full"
+                        className="text-sm px-3 py-1 bg-gray-800 text-gray-300 rounded-full
+                         hover:bg-white hover:text-black transition"
                     >
                         {t}
                     </span>

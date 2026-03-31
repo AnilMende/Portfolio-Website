@@ -3,20 +3,28 @@ import { motion } from "framer-motion";
 
 const skillsData = [
     {
-        title: "Backend",
-        skills: ["Node.js", "Express.js", "REST APIs", "JWT", "RBAC", "Redis", "Socket.io"],
+        title : "Languages",
+        skills : ["JavaScript (ES6+)", "Java", "Python"]
     },
     {
-        title: "Database",
-        skills: ["MongoDB", "MySQL", "Schema Design", "Query Optimization"],
+        title: "Backend",
+        skills: ["Node.js", "Express.js", "REST APIs", "MVC Architecture", "Scalable Backend Systems"],
+    },
+    {
+        title: "Database & Caching",
+        skills: ["MongoDB (Mongoose)", "MySQL", "Redis (Caching & Invalidation)", "Database Schema Design"],
+    },
+    {
+        title : "Security & Authentication",
+        skills : ["JWT (Access & Refresh Tokens)", "Input Validation (Joi)", "Rate Limiting", "Helmet.js", "CORS"]
     },
     {
         title: "Frontend",
-        skills: ["React.js", "Redux", "Tailwind CSS"],
+        skills: ["React.js", "Redux Toolkit", "Tailwind CSS"],
     },
     {
         title: "Tools & DevOps",
-        skills: ["Git", "Postman", "Render", "Cloudinary"],
+        skills: ["Git", "Github", "Postman", "Socket.io", "Cloudinary", "Render", "Environment Configuration (dotenv)"],
     },
 ];
 
