@@ -43,5 +43,19 @@ export const projects = [
     github: "https://github.com/AnilMende/Clinic-Appointment-Booking-System-MERN-",
     live: "https://alhijama-clinic.vercel.app/",
     coverImage: "/images/Clinic appointment.png"
+  },
+  {
+
+    title: "Job Processing System",
+    points: [
+      "Engineered a distributed job processing system using Node.js, BullMQ, and Redis with worker-based concurrency, retry handling, and backpressure management, reducing job failure rate from 60% to 18%",
+      "Achieved 38 req/sec throughput under 100+ concurrent users (82% success rate) by optimizing worker concurrency, queue throughput, and processing delays via k6 load testing",
+      "Built a rate-limited API layer (18% throttling) ensuring stable, fault-tolerant execution under high-traffic conditions",
+      "Integrated Redis Pub/Sub and developed a real-time monitoring dashboard using Socket.io, enabling scalable event-driven updates and live system visibility"
+    ],
+    tech: ["Node.js", "BullMQ", "Redis", "MongoDB", "React.js", "Socket.io"],
+    github: "https://github.com/AnilMende/Scalable-Job-Processing-and-Notification-System",
+    live: "https://jobs-processing-system.vercel.app/",
+    coverImage: "/images/job-processing-coverimage.png"
   }
 ];
