@@ -2,7 +2,7 @@ import React from "react";
 
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import FeaturedProject from "./components/projects/FeaturedProject";
+// import FeaturedProject from "./components/projects/FeaturedProject";
 import ProjectsSection from "./components/projects/ProjectsSection";
 import Skills from "./components/Skills";
 import About from "./components/About";
@@ -14,7 +14,7 @@ const App = () => {
     <div>
       <Navbar/>
       <Home/>
-      <FeaturedProject/>
+      {/* <FeaturedProject/> */}
       <ProjectsSection/>
       <Skills/>
       <About/>

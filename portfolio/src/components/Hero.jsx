@@ -53,14 +53,21 @@ const Hero = () => {
                     View Projects
                 </button>
 
-                <button
+                {/* <button
                     onClick={() => handleScroll("contact")}
                     className="px-6 py-2 bg-white text-black rounded-lg 
                     hover:scale-105 transition cursor-pointer"
                 >
                     Contact
-                </button>
-
+                </button> */}
+                <a
+                    href="https://github.com/AnilMende"
+                    target="_blank"
+                    className="px-6 py-2 border border-white rounded-lg"
+                >
+                    GitHub
+                </a>
+                
                 {/* ✅ Resume Download */}
                 <a
                     href="/Anil_PortfolioResume.pdf"

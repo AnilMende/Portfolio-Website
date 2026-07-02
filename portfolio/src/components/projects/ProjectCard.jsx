@@ -10,12 +10,14 @@ const ProjectCard = ({ title, points, tech, github, live, coverImage }) => {
             className="bg-[#111] rounded-xl shadow-lg border border-gray-800 overflow-hidden"
         >
             {/* Image */}
-            <div className="overflow-hidden">
+            {/* Image */}
+            <div className="aspect-video overflow-hidden">
                 <motion.img
                     src={coverImage}
                     alt={title}
-                    className="w-full h-56 object-cover"
-                    whileHover={{ scale: 1.1 }}
+                    className="w-full h-full object-cover"
+                    whileHover={{ scale: 1.05 }}
+                    transition={{ duration: 0.3 }}
                 />
             </div>
 

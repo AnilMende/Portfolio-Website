@@ -13,7 +13,7 @@ const ProjectsSection = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 className="text-4xl font-bold text-center"
             >
-                Other Projects
+                Projects
             </motion.h2>
 
             <div className="max-w-6xl mx-auto mt-12 grid md:grid-cols-2 gap-8">
