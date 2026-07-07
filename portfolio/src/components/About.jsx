@@ -21,10 +21,7 @@ const About = () => {
                     transition={{ duration: 0.7 }}
                     className="mt-10 text-gray-300 text-lg leading-relaxed"
                 >
-                    I am a backend-focused software engineer specializing in building
-                    scalable and secure server-side applications using Node.js and Express.
-                    I have hands-on experience designing RESTful APIs, implementing JWT-based
-                    authentication systems, and optimizing performance using Redis caching.
+                    Backend Software Engineer with 1.5+ years of freelance experience building scalable web applications using Node.js, Express.js, MongoDB, Redis, and MySQL. Skilled in REST API development, JWT authentication, RBAC, Redis caching, Socket.io, and distributed backend systems.
                 </motion.p>
 
                 <motion.p
@@ -33,9 +30,7 @@ const About = () => {
                     transition={{ duration: 0.7 }}
                     className="mt-6 text-gray-300 text-lg leading-relaxed"
                 >
-                    I have built production-grade systems including a scalable backend API,
-                    a full-stack food delivery platform with payment integration, and a
-                    real-time messaging application using Socket.io. My focus is on writing
+                    Built and deployed production-ready applications across healthcare, edtech, and food & beverage domains. Reduced job failure rates from 60% to 18% and achieved 38 requests/sec under 100+ concurrent users through BullMQ, Redis, concurrency optimization, and load testing. My focus is on writing
                     clean, maintainable code and building systems that can scale efficiently.
                 </motion.p>
 

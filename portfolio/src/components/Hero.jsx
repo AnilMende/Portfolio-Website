@@ -63,14 +63,15 @@ const Hero = () => {
                 <a
                     href="https://github.com/AnilMende"
                     target="_blank"
-                    className="px-6 py-2 border border-white rounded-lg"
+                    className="px-6 py-2 border border-white rounded-lg 
+                    hover:scale-105 transition cursor-pointer"
                 >
                     GitHub
                 </a>
                 
                 {/* ✅ Resume Download */}
                 <a
-                    href="/Anil_PortfolioResume.pdf"
+                    href="/AnilMende_PortfolioResume.pdf"
                     download
                     className="px-6 py-2 bg-gray-800
                      text-white rounded-lg text-center hover:scale-105 transition"

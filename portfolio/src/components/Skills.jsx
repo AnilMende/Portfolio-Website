@@ -16,7 +16,7 @@ const skillsData = [
     },
     {
         title : "Systems",
-        skills : ["Distributed Systems", "Queue-Based Processing", "Event-Driven Architecture"]
+        skills : ["Distributed Systems", "Microservices", "Queue-Based Processing", "Event-Driven Architecture"]
     },
     {
         title : "Security & Authentication",
