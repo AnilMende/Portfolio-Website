@@ -14,6 +14,19 @@ export const projects = [
     coverImage: "/images/job-processing-coverimage.png"
   },
   {
+    title : "LaunchPilot AI (Startup Navigator)",
+    points : [
+      "Built an AI-powered startup guidance platform using the MERN stack, covering registration, funding, compliance, hiring, branding, marketing, and business growth.",
+      "Integrated the Google Gemini API with a custom knowledge retrieval pipeline to generate context-aware responses and support persistent AI chat history.",
+      "Implemented JWT authentication, HTTP-only cookies, refresh token rotation, RBAC, and an Admin Dashboard for CRUD operations and analytics.",
+      "Developed production-ready REST APIs with Joi validation, reusable middleware, MVC architecture, and deployed the frontend on Vercel and backend on Render."
+    ],
+    tech : ["React.js", "Node.js", "Express.js", "MongoDB", "Google Gemini API"],
+    github : "https://github.com/AnilMende/Launchpilot-Ai",
+    live : "https://launch-pilot-ai-iota.vercel.app",
+    coverImage : "/images/LaunchPilot-ai.png"
+  },
+  {
     title: "Clinic-Appointment Booking System",
     points: [
       "Implemented role-based access control for Admin and Patients",
