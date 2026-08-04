@@ -21,7 +21,11 @@ const About = () => {
                     transition={{ duration: 0.7 }}
                     className="mt-10 text-gray-300 text-lg leading-relaxed"
                 >
-                    Backend Software Engineer with 1.5+ years of freelance experience building scalable web applications using Node.js, Express.js, MongoDB, Redis, and MySQL. Skilled in REST API development, JWT authentication, RBAC, Redis caching, Socket.io, and distributed backend systems.
+                    I'm a Software Engineer with hands-on full-stack development experience and a
+                    strong passion for backend engineering. Over the past 1.5+ years as a freelance
+                    developer, I've built and deployed production-ready web applications using
+                    Node.js, Express.js, React.js, MongoDB, Redis, and MySQL, delivering complete
+                    solutions from planning and development to deployment.
                 </motion.p>
 
                 <motion.p
@@ -30,18 +34,25 @@ const About = () => {
                     transition={{ duration: 0.7 }}
                     className="mt-6 text-gray-300 text-lg leading-relaxed"
                 >
-                    Built and deployed production-ready applications across healthcare, edtech, and food & beverage domains. Reduced job failure rates from 60% to 18% and achieved 38 requests/sec under 100+ concurrent users through BullMQ, Redis, concurrency optimization, and load testing. My focus is on writing
-                    clean, maintainable code and building systems that can scale efficiently.
+                    I enjoy designing scalable backend systems, building secure REST APIs,
+                    implementing authentication and authorization, optimizing performance with
+                    Redis caching and BullMQ, and developing event-driven applications. I've
+                    independently delivered projects across healthcare, edtech, and food &
+                    beverage domains while focusing on clean architecture, maintainable code,
+                    and real-world problem solving.
                 </motion.p>
 
                 <motion.p
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.7 }}
-                    className="mt-6 text-gray-400 text-lg leading-relaxed"
+                    className="mt-6 text-gray-300 text-lg leading-relaxed"
                 >
-                    Currently, I am focused on strengthening my system design skills,
-                    improving backend performance, and preparing for backend engineering roles.
+                    I'm continuously improving my expertise in distributed systems, system
+                    design, microservices, Docker, and backend performance optimization.
+                    Currently, I'm seeking Software Engineer and Backend Developer opportunities
+                    where I can contribute to building reliable, high-performance applications
+                    while growing alongside experienced engineering teams.
                 </motion.p>
 
             </div>

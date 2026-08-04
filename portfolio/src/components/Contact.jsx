@@ -41,7 +41,7 @@ const Contact = () => {
                     </a>
 
                     <a
-                        href="https://linkedin.com/in/mende-anilkumar-284791228/"
+                        href="https://www.linkedin.com/in/mende-anilkumar-284791228/"
                         target="_blank"
                         className="px-6 py-2 border border-white rounded-lg"
                     >

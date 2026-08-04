@@ -11,24 +11,28 @@ const skillsData = [
         skills: ["Node.js", "Express.js", "REST APIs", "MVC Architecture", "BullMQ", "Socket.io"],
     },
     {
+        title: "Frontend",
+        skills: ["React.js", "Redux Toolkit", "Tailwind CSS", "API Integration"],
+    },
+    {
         title: "Database & Caching",
         skills: ["MongoDB (Mongoose)", "MySQL", "Redis (Caching & Invalidation)", "Database Schema Design"],
     },
     {
         title : "Systems",
-        skills : ["Distributed Systems", "Microservices", "Queue-Based Processing", "Event-Driven Architecture"]
+        skills : ["Distributed Systems", "Microservices", "Queue-Based Processing", "Event-Driven Architecture", "System Design"]
+    },
+    {
+        title: "Tools",
+        skills: ["Git", "Github", "Docker", "Docker Compose", "Postman", "GitHub Actions (CI/CD)", "Cloudinary", "Render", "Vercel", "Stripe API"],
+    },
+    {
+        title : "Testing",
+        skills : ["API Testing & Validation (Postman)"]
     },
     {
         title : "Security & Authentication",
         skills : ["JWT", "Input Validation (Joi)", "Rate Limiting", "Helmet.js", "CORS"]
-    },
-    {
-        title: "Frontend",
-        skills: ["React.js", "Redux Toolkit", "Tailwind CSS"],
-    },
-    {
-        title: "Tools",
-        skills: ["Git", "Github", "Postman", "Cloudinary", "Render", "Vercel", "Stripe API"],
     },
 ];
 
